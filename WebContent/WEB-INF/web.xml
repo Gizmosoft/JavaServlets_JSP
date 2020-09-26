@@ -9,4 +9,22 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>addServlet</servlet-name>
+  	<servlet-class>com.firstapp.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addServlet</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>sqrServlet</servlet-name>
+  	<servlet-class>com.firstapp.SquareServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>sqrServlet</servlet-name>
+  	<url-pattern>/sqr</url-pattern>
+  </servlet-mapping>
 </web-app>
